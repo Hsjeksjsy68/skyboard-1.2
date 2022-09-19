@@ -1,0 +1,448 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'official-font-2';
+}
+
+@font-face {
+    font-family: 'official-font';
+    src: url('../fonts/Nunito-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'official-font-2';
+    src: url('./../fonts/Poppins-Regular.ttf');
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Menu Ber */
+
+.menu-ber{
+    display: flex;
+    margin: 10px;
+}
+
+.menu-ber .logo-site a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-ber .logo-site a h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(77, 77, 254);
+}
+
+.menu-ber .logo-site a h1:hover{
+    color: rgba(80, 80, 255, 0.735);
+    transition: .5s;
+}
+
+.menu-ber .logo-site{
+    margin-left: 40px;
+}
+
+
+
+
+.menu-ber .main-ber{
+    float: right;
+    margin-left: 6%;
+    margin-top: -7px;
+}
+
+.menu-ber .main-ber ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu-ber .main-ber ul li{
+    list-style: none;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+
+.menu-ber .main-ber ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-ber .main-ber ul li a p{
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 1000;
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: gray;
+}
+
+.menu-ber .main-ber ul li a p:hover{
+    border: 1px solid rgb(77, 77, 254);
+    border-radius: 100px;
+    color: rgb(77, 77, 254);
+    transition: .2s;
+}
+
+.menu-ber .main-ber .hover-text a p{
+    color: rgba(148, 148, 148, 0.803);
+    font-weight: 2000;
+}
+
+
+
+
+
+.menu-ber .log{
+    display: flex;
+    margin-left: 10%;
+}
+
+
+.menu-ber .log div{
+    margin: 5px;
+}
+
+.menu-ber div a button{
+    padding: 8px;
+    border-radius: 100px;
+    width: 100px;
+    font-weight: 1000;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+.menu-ber .log .signup .signup-btn{
+    border: 1px solid rgb(77, 77, 254);
+    color: white;
+    background-color: rgb(79, 79, 255);
+}
+
+.menu-ber .log .signup .signup-btn:hover{
+    background: none;
+    color: rgb(77, 77, 254);
+    transition: .6s;
+}
+
+.menu-ber .log .login .login-btn{
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: rgb(77, 77, 254);
+    background: rgba(32, 32, 53, 0);
+}
+
+.menu-ber .log .login .login-btn:hover{
+    border: 1px solid rgb(79, 79, 255);
+    transition: .6s;
+    color: rgb(77, 77, 254);
+    background-color: rgba(32, 32, 53, 0);
+}
+
+/*  Menu ber end point */
+
+
+/* head title container */
+
+
+
+
+/* head title container ending */
+
+
+/* community sellect */
+
+.comm-types{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: none;
+}
+
+.comm-types .objection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comm-types .objection div{
+    padding: 5px;
+    border: 2px solid rgb(77, 77, 254);
+    margin: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: 330px;
+    background-size: cover;
+    background-image: url('./../all img/silver_2_sell_bg-removebg-preview.pn');
+}
+
+.comm-types .objection div h1{
+    color: rgb(77, 77, 254);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.comm-types .objection div p{
+    color: rgb(77, 77, 254);
+    margin-top: 20px;
+    margin-left: 10px;
+    display: none;
+}
+
+.comm-types .objection div .list-comm{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.comm-types .objection div .list-comm li{
+    list-style: circle;
+    color: rgb(77, 77, 254);
+    font-weight: 800;
+    display: none;
+}
+
+.comm-types .objection div h3{
+    color: hsl(240, 100%, 74%);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.comm-types .objection div a button{
+    padding: 3px;
+    width: 300px;
+    border: 2px solid rgb(77, 77, 254);
+    font-size: 20px;
+    color: rgb(77, 77, 254);
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 1000;
+    background: none;
+    margin-bottom: 20px;
+}
+
+.comm-types .objection div a button:hover{
+    transition: .7s;
+    background: rgb(77, 77, 254);
+    color: white;
+}
+
+.comm-types .objection div a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+.comm-types .objection div details{
+    color: rgb(77, 77, 254);
+    font-weight: 1000;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* community sellect ending */
+
+.img-1 img{
+    width: 100%;
+    display: none;
+}
+
+
+.home-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(79, 79, 255);
+    background: url('./../all img/temple//panic-fear-business-crisis-situation-frustrated-helpless-bankruptcy-trouble-problem-time-running-out-concept-panic-businessman-frustrated-fix-leaking-water-sinking-boat-ship_212586-1035.webp');
+    height: 400px;
+}
+
+.home-image .in .title h1{
+    letter-spacing: 1px;
+}
+
+
+.home-image .download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.home-image .download a button{
+    background: transparent;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    border: 2px solid rgb(79, 79, 255);
+    border-radius: 100px;
+    color: rgb(79, 79, 255);
+    font-weight: 800;
+    height: 40px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.home-image .download a button:hover{
+    background: rgb(79, 79, 255);
+    color: white;
+    transition: .4s;
+}
+
+
+
+
+
+
+.shots-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shots-link .box{
+    display: flex;
+}
+
+.shots-link .box ul{
+    display: flex;
+}
+
+.shots-link .box ul li{
+    list-style: none;
+    margin: 40px;
+    color: rgb(79, 79, 255);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(77, 77, 254);
+    font-size: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.shots-link .box ul li:hover{
+    transition: .3s;
+    background-color: rgb(79, 79, 255);
+    color: white;
+    width: 70px;
+    height: 70px;
+}
+
+
+/*some text*/
+
+
+
+.some-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.some-text .box {
+    display: flex;
+}
+
+
+.some-text .box .some{
+    background-color: rgba(74, 255, 246, 0.295);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.some-text .box .some h1{
+    text-align: center;
+    color: rgb(77, 77, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.some-text .box .some h1 i{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(77, 77, 254);
+    border-radius: 100px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.some-text .box .some h1 i:hover{
+    transition: .3s;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+}
+
+.some-text .box .some .line-po{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.some-text .box .some .line{
+    width: 80px;
+    height: 7px;
+    background: rgb(79, 79, 255);
+    border-radius: 100px;
+}
+
+.some-text .box .some p{
+    width: 250px;
+    text-align: center;
+    color: rgb(77, 77, 254);
+}
+
+
+.some-text .box .some .btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.some-text .box .some .btn button{
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+    border: 2px solid rgb(77, 77, 254);
+    border-radius: 100px;
+    background: transparent;
+    color: rgb(77, 77, 254);
+    cursor: pointer;
+}
+
+.some-text .box .some .btn button:hover{
+    background: rgb(77, 77, 254);
+    color: white;
+    transition: .3s;
+}
+
+
+
+
+/*some test end*/
+
+
+
+.two-in-one{
+    display: flex;
+}
+
+

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'official-font';
+    src: url('../../pop/Poppins-Regular.ttf');
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'official-font';
+}
+
+
+body{
+    background-color: rgb(196, 252, 255);
+}
+
+
+.vre-box{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+}
+
+
+.input-code input{
+    height: 60px;
+    width: 50px;
+    font-weight: 1000;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #4778ff;
+    margin: 5px;
+    background:#a1baff9a;
+}
+
+
+.btn{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 10px 20px;
+    width: 100px;
+    background-color: #47c8ffa5;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: 1000;
+    margin: 10px;
+}

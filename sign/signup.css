@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'official-font';
+}
+
+@font-face {
+    font-family: 'official-font';
+    src: url('./../../pop/Poppins-Regular.ttf');
+}
+
+body{
+    background-color: #b4baff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    display: flex;
+}
+
+.logo a h1{
+    color: rgb(77, 77, 254);
+}
+
+.logo .line{
+    width: 5px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(204, 216, 255, 0.798);
+    border-radius: 100px;
+}
+
+
+.logo .lv2{
+    color: rgba(0, 64, 255, 0.744);
+}
+
+
+.sign-up-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 05%;
+}
+
+.sign-up-section form{
+    font-weight: 1000;
+    background-color: #c5e8ff9b;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+.sign-up-section form label{
+    color: gray;
+}
+
+
+
+.sign-up-section form input{
+    padding: 8px 20px;
+    background: transparent;
+    height: 30px;
+    width: auto;
+    align-items: center;
+    margin: 5px;
+    outline: none;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    font-weight: 1000;
+    font-size: 15px;
+    color: rgb(102, 109, 132);
+}
+
+.sign-up-section form input::placeholder{
+    color: rgb(105, 105, 138);
+}
+
+.sign-up-section form input:hover{
+    border: 1px solid rgb(77, 77, 254);
+    border:1px solid transparent;
+}
+
+.sign-up-section form .input-name input{
+    width: 100px;
+}
+
+
+.sign-up-section form div input:hover{
+    color: rgb(77, 77, 254);
+}
+
+
+.sign-up-section form .btn{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-section form .btn button{
+    padding: 10px 20px;
+    width: 200px;
+    background: transparent;
+    font-size: 17px;
+    font-weight: 1000;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: gray;
+}
+
+.sign-up-section form .btn button:hover{
+    border: 1px solid rgb(77, 77, 254);
+    color: rgb(77, 77, 254);
+    transition: .5s;
+}
