@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'official-font-2';
+}
+
+@font-face {
+    font-family: 'official-font';
+    src: url('../fonts/Nunito-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'official-font-2';
+    src: url('./../fonts/Poppins-Regular.ttf');
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: rgb(79, 79, 255);
+    display: flex;
+}
+
+nav .logo a h1{
+    font-size: 30px;
+}
+
+nav .logo a p{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+.menu-ber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(79, 79, 255);
+}
+
+.menu-ber ul{
+    display: flex;
+}
+
+.menu-ber ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.menu-ber ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.news .nn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.news .nn1 details{
+    font-size: 40px;
+    color: rgb(79, 79, 255);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news .nn1 a{
+    text-decoration: none;
+    color: rgb(66, 66, 187);
+}
+
+.news .nn1:hover{
+    background: rgb(122, 149, 206);
+    height: 200px;
+    transition: .7s;
+}
+
+.news .nn1 details:hover{
+    color: rgb(255, 255, 255);
+}
+
+.news .nn1 .ab{
+    font-size: 20px;
+    text-align: center;
+    width: 1000px;
+}
+
+.news .nn1 summary{
+    text-align: center;
+}
